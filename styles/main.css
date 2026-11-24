@@ -1,0 +1,12 @@
+.soft-button {
+  background: #e0e5ec;
+  border-radius: 12px;
+  box-shadow: 8px 8px 16px #b8b9be, 
+             -8px -8px 16px #ffffff;
+  transition: box-shadow 0.2s ease;
+}
+
+.soft-button:active {
+  box-shadow: inset 6px 6px 12px #b8b9be, 
+              inset -6px -6px 12px #ffffff;
+}
